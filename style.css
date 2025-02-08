@@ -66,4 +66,19 @@ html,body{
     background: red;
     box-shadow: 0px 6px 15px rgb(237, 115, 115, 0.6);
 }
+@media (max-width: 500px) {
+    .card {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .card button {
+        width: 100px;
+        font-size: 16px;
+    }
+}
 
